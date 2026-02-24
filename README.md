@@ -1,116 +1,124 @@
-# 🩺 MediConnect
+# MediConnect
 
-A comprehensive full-stack **telemedicine platform** that facilitates seamless healthcare management through three distinct user interfaces:  
-👤 **Patient Portal** | 🩺 **Doctor Dashboard** | 🛠️ **Admin Panel**
+MediConnect is a full-stack telemedicine platform that enables seamless healthcare management through three different user interfaces:
 
----
-
-## 🌟 Key Features
-
-### 👤 Patient Features
-- 📝 User registration and profile management  
-- 🧑‍⚕️ Browse doctors by specialty and availability  
-- 📅 Real-time appointment booking with time slots  
-- 💳 Multiple payment options (Razorpay & Stripe)  
-- 📜 Appointment history and status tracking  
-
-### 🩺 Doctor Features
-- 🔐 Secure login and profile management  
-- 📊 Dashboard with earnings and statistics  
-- 🗂️ Appointment management (view, complete, cancel)  
-- 🟢 Availability toggle and profile updates  
-
-### 🛠️ Admin Features
-- 📈 System dashboard with analytics  
-- ➕ Add and manage doctors  
-- 🔍 Oversee all appointments  
-- 🧑‍💼 User and system management  
+- Patient Portal
+- Doctor Dashboard
+- Admin Panel
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-| 🧰 Technology     | 🔍 Purpose                                                                 |
-|------------------|---------------------------------------------------------------------------|
-| **React.js**     | Frontend library for building user interfaces and interactive components  |
-| **Node.js**      | Runtime environment for executing JavaScript on the server                |
-| **Express.js**   | Web framework for Node.js to handle routing and server logic              |
-| **MongoDB**      | NoSQL database to store user, doctor, and appointment data                |
-| **Tailwind CSS** | Utility-first CSS framework for rapid UI styling and responsiveness       |
-| **JWT**          | Secure authentication using JSON Web Tokens                               |
-| **Cloudinary**   | Cloud-based media storage and optimization                                |
-| **Razorpay**     | Payment gateway for Indian transactions                                   |
-| **Stripe**       | Global payment processing for international users                         |
+### Patient
 
----
+- User registration and profile management
+- Browse doctors by specialty and availability
+- Real-time appointment booking with time slots
+- Online payment integration (Razorpay and Stripe)
+- View appointment history and track status
 
-## 🔐 Environment Variables
+### Doctor
 
-Set these variables in your `.env` file to run the project locally:
+- Secure login and profile management
+- Dashboard with earnings and statistics
+- Manage appointments (view, complete, cancel)
+- Toggle availability status
+- Update profile details
 
+### Admin
 
-
-| Variable Name            |
-|--------------------------|
-| CURRENCY                 |
-| JWT_SECRET               |
-| ADMIN_EMAIL              |
-| ADMIN_PASSWORD           |
-| MONGODB_URI              |
-| CLOUDINARY_NAME          |
-| CLOUDINARY_API_KEY       |
-| CLOUDINARY_SECRET_KEY    |
-| RAZORPAY_KEY_ID          |
-| RAZORPAY_KEY_SECRET      |
-| STRIPE_SECRET_KEY        |
-
+- System dashboard with analytics
+- Add and manage doctors
+- Monitor and manage all appointments
+- Manage users and system settings
 
 ---
 
-## 🖼️ Screenshots
+## Tech Stack
 
-### 🛠️ Admin Panel
+Frontend:
+- React.js
+- Tailwind CSS
 
+Backend:
+- Node.js
+- Express.js
 
+Database:
+- MongoDB
 
-![Admin Panel 1](https://github.com/shubhamjaiswal760/music/blob/main/admin1.png?raw=true)
+Authentication:
+- JWT (JSON Web Tokens)
 
+Other Integrations:
+- Cloudinary (Image storage)
+- Razorpay (Indian payments)
+- Stripe (International payments)
 
+---
 
-![Admin Panel 2](https://github.com/shubhamjaiswal760/music/blob/main/admin2.png?raw=true)
+## Environment Variables
 
+Create a `.env` file in the backend directory and add the following variables:
 
+CURRENCY=
 
+JWT_SECRET=
 
-### 🩺 Doctor Dashboard
+ADMIN_EMAIL=
 
+ADMIN_PASSWORD=
 
+MONGODB_URI=
 
-![Doctor Dashboard 1](https://github.com/shubhamjaiswal760/music/blob/main/doc1.png?raw=true)
+CLOUDINARY_NAME=
 
+CLOUDINARY_API_KEY=
 
+CLOUDINARY_SECRET_KEY=
 
-![Doctor Dashboard 2](https://github.com/shubhamjaiswal760/music/blob/main/doc2.png?raw=true)
+RAZORPAY_KEY_ID=
 
+RAZORPAY_KEY_SECRET=
 
-
-
-### 👤 Patient Portal
-
-
-
-![Patient Portal 1](https://github.com/shubhamjaiswal760/music/blob/main/patient1.png?raw=true)
-
-
-
-![Patient Portal 2](https://github.com/shubhamjaiswal760/music/blob/main/patient2.png?raw=true)
-
-
+STRIPE_SECRET_KEY=
 
 
 ---
 
-## 💬 Feedback
+## Installation
 
-If you have any suggestions or feedback, feel free to reach out 📧 at **shubhamjais700@gmail.com**
+1. Clone the repository
 
+```
+git clone <your-repo-link>
+```
+
+2. Install backend dependencies
+
+```
+cd backend
+npm install
+```
+
+3. Install frontend dependencies
+
+```
+cd frontend
+npm install
+```
+
+4. Run backend server
+
+```
+npm run server
+```
+
+5. Run frontend
+
+```
+npm run dev
+```
+Shubham Jaiswal  
+Email: shubhamjais700@gmail.com
